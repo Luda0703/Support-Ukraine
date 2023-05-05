@@ -1,0 +1,34 @@
+.container-support {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 372px;
+    width: 335px;
+    height: 352px;
+    background-color: #4F2EE8;
+    /* background-color:  radial-gradient(183.6% 183.01% at 59.76% -23.42%, #4F2EE8 18.03%, #FFFFFF 100%); */
+    box-shadow: 0px 10px 10px rgba(245, 245, 247, 0.1);
+    border-radius: 16px;
+    padding-top: 24px;
+}
+
+.container-ukraine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.name {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    color: #fff;
+    margin-right: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
