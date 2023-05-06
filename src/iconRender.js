@@ -11,49 +11,49 @@ import imageNine from './images/image-9.png';
 
 export const iconRender = [
     {
-      title: 'Save the Children',
+      title: '01',
       url:
         'https://www.savethechildren.net/what-we-do/emergencies/ukraine-crisis',
       img: imageOne,
     },
     {
-      title: 'Project HOPE',
+      title: '02',
       url: 'https://www.projecthope.org/country/ukraine/',
       img: imageTwo,
     },
     {
-      title: 'UNITED24',
-      url: 'https://u24.gov.ua/uk',
-      img: imageThree,
-    },
-    {
-      title: 'International Medical Corps',
+      title: '03',
       url: 'https://internationalmedicalcorps.org/country/ukraine/',
       img: imageFour,
     },
     {
-      title: 'Medicins Sans Frontieres',
+      title: '04',
       url: 'https://www.msf.org/ukraine',
       img: imageFive,
     },
     {
-      title: 'RAZOM',
+      title: '05',
       url: 'https://www.razomforukraine.org/',
       img: imageSix,
     },
     {
-      title: 'Action against hunger',
+      title: '06',
       url: 'https://www.actionagainsthunger.org/location/europe/ukraine/',
       img: imageSeven,
     },
     {
-      title: 'World vision',
+      title: '07',
       url: 'https://www.wvi.org/emergencies/ukraine',
       img: imageEight,
     },
     {
-      title: 'Serhiy Prytula Charity Foundation',
+      title: '08',
       url: 'https://prytulafoundation.org/en',
       img: imageNine,
+    },
+    {
+      title: '09',
+      url: 'https://u24.gov.ua/uk',
+      img: imageThree,
     },
   ]
