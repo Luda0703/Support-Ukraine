@@ -84,7 +84,7 @@ element.style {
 }
 
 
-.swiper-wrapper {
+.swiper-slide {
     mix-blend-mode: luminosity;
     color: #FFFFFF;
     filter: grayscale(1) brightness(1000%);
@@ -97,7 +97,7 @@ element.style {
 
 .icon-list {
     display: flex;
-    
+   
 }
 
 .title {
@@ -110,8 +110,6 @@ element.style {
     height: 18px;
     top: 7px;
     letter-spacing: -0.04em;
-
-
 }
 
 .fl {
@@ -132,13 +130,13 @@ element.style {
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .swiper-button-next {
-        top: 430px;
+        top: 440px;
     }
 }
 
 @media screen and (min-width: 1158px) {
     .swiper-button-next {
-        top: 450px;
+        top: 460px;
 
     } 
 }
