@@ -217,3 +217,151 @@
   transform: translateY(-50%);
   cursor: pointer;
  }    */
+
+
+ /* HEADER */
+
+
+ .container-header {
+  display: flex;
+  width: 375px;
+  padding: 20px;
+  /* height: 72px; */
+  background: #FFFFFF;
+  border: 1.5px solid #111111;
+  border-radius: 0px 0px 8px 8px;
+  align-items: center;
+  margin: 0;
+ }
+
+
+ .style-nav {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+
+ .logo-img {
+  margin-right: 145px;
+  width: 109px;
+ }
+
+ .nav-home {
+  margin-right: 24px;
+  width: 72px;
+  padding: 8px 8px 8px 8px;
+  border-radius: 36px;
+  background: #EAC645;
+  text-align: center;
+  
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+color: #111111;
+ }
+
+ .nav-hopping {
+  margin-right: 750px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px 8px 16px;
+  width: 118px;
+  
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+color: #111111;
+ }
+
+ @media screen and (max-width: 767px) {
+  .nav-home {
+    display: none;
+  }
+
+  .nav-hopping {
+    display: none;
+  }
+ }
+
+ .hopping-img {
+  margin-left: 7px;
+  left: 16.67%;
+right: 16.67%;
+top: 8.33%;
+bottom: 8.33%;
+ }
+
+ .switcher {
+  width: 40px;
+  height: 20px;
+  left: 0%;
+right: 0%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: linear-gradient(180deg, #4F2EE8 0%, #DCDCDC 100%);
+box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1);
+ }
+
+ .mobile-menu-open {
+  margin-left: 14px;
+  width: 28px;
+  height: 28px;
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 1157px) {
+  .container-header {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+  }
+
+  .logo-img {
+    margin-right: 40px;
+  }
+
+  .nav-home {
+    margin-right: 16px;
+  }
+
+  .nav-hopping { 
+    margin-right: 104px;
+  }
+
+  .mobile-menu-open {
+    display: none;
+  }
+ }
+
+ @media screen and (min-width: 1158px) {
+  .container-header {
+    padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 24px;
+  padding-left: 24px;
+  width: 1440px;
+  }
+
+  .mobile-menu-open {
+    display: none;
+  }
+ }
+
+ .mobile-menu-open {
+  margin-left: 14px;
+  width: 28px;
+  height: 28px;
+ }
