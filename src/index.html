@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
     <script type="module" src="./index.js"></script>
     <script type="module" src="./loader.js"></script>
+    <script type="module" src="./radiobuttom.js"></script>
   </head>
   <header class="section-header">
     <div class="container-header">
@@ -25,6 +26,10 @@
           </li>
         </ul>
       </nav>
+      <!-- <label id="switch" class="switch">
+            <input type="checkbox" onchange="toggleTheme()" id="slider">
+            <span class="slider round"></span>
+        </label> -->
       <fieldset class="switcher" aria-label="color theme switcher">
         <legend class="switcher__legend visually-hidden">Смена</legend>
         <input
@@ -34,6 +39,7 @@
           value="light"
           aria-label="Light color scheme"
           checked
+          id="slider"
         />
         <input
           class="switcher__radio--dark"
@@ -83,7 +89,7 @@
     <div class="loader"></div>
   </div>
       
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></scrip> -->
 
   </body>
 </html>
